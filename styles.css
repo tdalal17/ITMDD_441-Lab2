@@ -2,6 +2,14 @@
 
 #flex-section1 ul {
 
+	nav {
+		display: flex;
+		justify-content: space-between; 
+	  }
+	  
+	  nav button {
+		padding: 10px;
+	  }
 }
 
 /* end Flexbox Part 1 */
