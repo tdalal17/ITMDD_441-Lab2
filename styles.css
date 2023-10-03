@@ -44,36 +44,19 @@ nav ul {
 	
   }
   
-  /* Reorder the columns */
-  .item1 {
-	order: 1; /* This will be the first column */
+
+  #flex-section2 .item1 {
+	order: 1; 
   }
   
-  .item2 {
-	order: 3; /* This will be the third column */
-  }
+  #flex-section2  .item2 {
+	order: 3; 
   
-  .item3 {
-	order: 2; /* This will be the second column */
+  #flex-section2 .item3 {
+	order: 2; 
   }
   
 	}
-
-#flex-section2 li {
-
-}
-
-#flex-section2 .item1 {
-
-}
-
-#flex-section2 .item2 {
-
-}
-
-#flex-section2 .item3 {
-
-}
 
 /* end Flexbox Part 2 */
 
