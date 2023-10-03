@@ -24,8 +24,40 @@ nav ul {
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
+/* Define the flex container */
+.box nav ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	list-style: none;
+  }
 
-}
+  /* Define the flex items */
+  .greybox {
+	flex: 1;
+	margin: -2px;
+	padding: 10px;
+	background-color: #cecfd0;
+	border: 6px solid #4b4a4a;
+	box-sizing: border-box;
+	text-align: left;
+	
+  }
+  
+  /* Reorder the columns */
+  .item1 {
+	order: 1; /* This will be the first column */
+  }
+  
+  .item2 {
+	order: 3; /* This will be the third column */
+  }
+  
+  .item3 {
+	order: 2; /* This will be the second column */
+  }
+  
+	}
 
 #flex-section2 li {
 
