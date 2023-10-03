@@ -1,17 +1,23 @@
 /* Flexbox Part 1 */
 
-#flex-section1 ul {
-
-	nav {
-		display: flex;
-		justify-content: space-between; 
-	  }
-	  
-	  nav button {
-		padding: 10px;
-	  }
-}
-
+nav ul {
+	display: flex; 
+	justify-content: space-between;
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  nav li {
+	margin: 0 10px;
+  }
+  
+  .btn {
+	padding: 10px;
+	background-color: #007bff;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+  }
 /* end Flexbox Part 1 */
 
 
