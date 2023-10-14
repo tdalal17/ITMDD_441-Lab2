@@ -51,12 +51,7 @@ nav ul {
   
   #flex-section2  .item2 {
 	order: 3; 
-  
-  #flex-section2 .item3 {
-	order: 2; 
-  }
-  
-	}
+	order: 2; }
 
 /* end Flexbox Part 2 */
 
@@ -101,13 +96,25 @@ nav ul {
 
 /* Grid Part 2 */
 
+#grid-section2 .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    position: relative; 
+}
+
 #grid-section2 .gridboxblue {
-
+    grid-column: 2 / span 3; 
+    grid-row: 2 / span 5;  
+    z-index: 3; 
+    background-color: rgb(105, 105, 252); 
 }
-
 #grid-section2 .gridboxred {
-
+    grid-column: 1 / span 4; 
+    grid-row: 5 / span 1;  
+    background-color: red;
 }
+	
 
 /* end Grid Part 2 */
 
