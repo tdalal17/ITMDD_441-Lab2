@@ -31,7 +31,7 @@ nav ul {
 	padding: 0;
 	list-style: none;
   }
-
+}
   /* Define the flex items */
   .greybox {
 	flex: 1;
@@ -64,11 +64,16 @@ nav ul {
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
+	display: flex;
+	justify-content: center; /* Horizontally centers the content */
+	align-items: center;     /* Vertically centers the content */
+	height:100%;            /* Use the full height of the container */
+	list-style-type: none; /* This removes the bullet points */
+}	
 
-}
-
-#flex-section3 .tags ul {
-
+#flex-section3 {
+	display: inline-block; /* This makes them side by side */
+	background-color: #f5f5f5; /* Light grey background */
 }
 
 /* end Flexbox Part 3 */
