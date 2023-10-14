@@ -82,10 +82,21 @@ nav ul {
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+	
 }
 
 /* end Grid Part 1 */
+.grid {
+    grid-gap: 20px;
+	grid-auto-rows: 100px;
+}
+
+
+
 
 
 /* Grid Part 2 */
