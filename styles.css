@@ -67,15 +67,16 @@ nav ul {
 
 #flex-section3 .box {
 	display: flex;
-	justify-content: center; 
-	align-items: center;     
-	height:100%;            
-	list-style-type: none; 
+	justify-content: space-around; 
+	align-items: center;      
 }	
 
-#flex-section3 {
-	display: inline-block; 
-	background-color: #f5f5f5;
+#flex-section3 .tags ul{
+	display: flex; 
+	list-style: none;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
 }
 
 /* end Flexbox Part 3 */
